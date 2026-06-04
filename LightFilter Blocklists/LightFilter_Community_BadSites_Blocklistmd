@@ -1,0 +1,28 @@
+!Attempt to switch to safe mode
+||startpage.com^$dnsrewrite=safe.startpage.com
+||www.startpage.com^$dnsrewrite=safe.startpage.com
+! Block the proxy subdomains
+||proxy.startpage.com^
+||*.proxy.startpage.com^
+! Ensure Blocking
+||proxy.startpage.com^$important
+||*.proxy.startpage.com^$important
+||worker-proxy.startpage.com^$important
+||s-v3.startpage.com^$important
+! Ensure blocking via V2
+||proxy.startpage.com^$important
+||*.proxy.startpage.com^$important
+||worker-proxy.startpage.com^$important
+||s-v3.startpage.com^$important
+||sn-*.startpage.com^$important
+! Ensure blocking via V3
+||z-p3-static.startpage.com^$important
+||sn-*.startpage.com^$important
+||s-v3.startpage.com^$important
+||worker-proxy.startpage.com^$important
+||proxy.startpage.com^$important
+||*.proxy.startpage.com^$important
+||www.startpage.com/sp/anon*^$important
+||www.startpage.com/do/anon*^$important
+! Ensure safe works
+@@||safe.startpage.com^
