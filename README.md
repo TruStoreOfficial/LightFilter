@@ -13,7 +13,8 @@ Orbit Technology LLC. is a privacy first brand, **by default** the following pre
 
 Note that these can be enabled to improve others' experience, including yourself, but know, if these are enabled, the data will be stored, but not sold.
 
-### Stock Included Block Lists 
+### Block Lists
+<--Stock Included Block Lists (Taken from uBlock Origin Lite)-->
 EasyList (Enabled by default)
 EasyPrivacy (Enabled by default)
 Peter Lowe – Ads, trackers, and more (Enabled by default)
@@ -34,6 +35,46 @@ Dan Pollock’s hosts file
 uBlock filters – Experimental
 uBO Lite Test Filters
 
-### Stock Included Functions
+<--Additional Stock Blocklists via Collab with Orbit Search Engine + GameCo. Protect-->
+
+--LightFilter Blocklists--
+LightFilter Security Blocklist (Enabled by default, prevents websites from detecting LightFilter)
+LightFilter Community "Bad" Sites Blocklist (Enabled by default, blocks bad sites that other blocklists miss)
+LightFilter "Untrusted/Unsafe" Sites Blocklist (Enabled by default, Enforced for Minors. Blocks the following: 4chan, 500px, 9GAG, AliExpress, Amazon Streaming, Amino, Apple Streaming, Betano, Betfair, Betway, Bigo Live, Bilibili, Blaze, Bluesky, Box, Canais Globo, ChatGPT, Claro, Claude, Clubhouse, CoolAPK, Crunchyroll, Dailymotion, DeepSeek, Deezer, Discord, Douban, Dropbox, eBay, Facebook, FIFA, Flickr, Globoplay, GOG, Grok, iHeartRadio, Imgur, Instagram, iQIYI, KakaoTalk, Kik, Kook, Lazada, League of Legends, Line, LinkedIn, Lionsgate+, Looke, Mail.ru, Manus, Mastodon, Mercado Libre, Meta AI, Microslop Teams, Nebula, Netflex, Odysee, OK.ru, Olvid, OnlyFans, Origin, Perplexity, Pintrest, Plenty of Fish, Plex, Privacy (not Privacy.com), QQ, Rakuten Viki, Rockstar Games, Shein, Shopee, Signal, Skype, Slack, Snapchat, SoundCloud, Steam, Telegram (Web), Temu, Tidal, TikTok, Tinder, Tumblr, Twitch, X (formerly Twitter), Valorant, Viber, Vimeo, Vivo Play, VK.com, Voot, Wargaming, WeChat, Weibo, WhatsApp, Wizz, Xiaohongshu, YY, Zhihu)
+
+--GameCo. Protect / Orbit Search Engine (Enforced)--
+Peter Lowe's Blocklist
+1Hosts Lite
+Dan Pollock's List
+HaGeZi's Normal Blocklist
+OISD Blocklist Small
+Steven Black's List
+Dandeloin Sprout's Anti-Malware List
+HaGeZi's Badware Hoster Blocklist
+HaGeZi's Threat Intelligence Feeds
+NoCoin Filter List
+
+--AdGuard (Enforced)--
+AdGuard Maliious/Phising/Scams Blocklist
+AdGuard New Domains Blocklist
+AdGuard Typosquatting Blocklist
+AdGuard IDN Homograph Attacks Blocklist
+AdGuard DNS Filter
+
+--AdGuard (Enforced for Minors)
+AdGuard "Block Adult Websites" List
+AdGuard "Enforce Safe Search" List
+AdGuard "Block Adult Content" List
+AdGuard "Block Anonymizers/VPNs/Proxies" List
+AdGuard "Block Dating" List
+AdGuard "Block Alchohol/Tobacco/Drugs" List
+AdGuard "Block Gambling" List
+AdGuard "Block Obscene Content" List
+
+--AdGuard (Opitional, On by Default for Minors)
+AdGuard "Block Violent Content" List
+AdGuard "Block Weapons/Explosives/Pyrotechnics" List
+
+<--Stock Included Functions (Taken from uBlock Origin Lite)-->
 Enable strict blocking
 Enable pop-up blocking
