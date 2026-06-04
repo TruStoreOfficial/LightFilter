@@ -80,6 +80,13 @@ Enable strict blocking
 Enable pop-up blocking
 
 <--Additional Features-->
+--From AdGuard--
 Block access to iCloud Private Relay
 Block Firefox Canary Domain
 Force Preflight Mode for Prefetching in Chrome
+
+--From SaferInternetProject--
+Block LGBTQ+ Content (Enforced for minors, Enabled by default)
+
+*LightFilter uses NSFW.js to make local explict content filtering possible
+
