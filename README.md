@@ -38,9 +38,9 @@ uBO Lite Test Filters
 <--Additional Stock Blocklists via Collab with Orbit Search Engine + GameCo. Protect-->
 
 --LightFilter Blocklists--
-LightFilter Security Blocklist (Enabled by default, prevents websites from detecting LightFilter)
-LightFilter Community "Bad" Sites Blocklist (Enabled by default, blocks bad sites that other blocklists miss)
-LightFilter "Untrusted/Unsafe" Sites Blocklist (Enabled by default, Enforced for Minors. Blocks the following: 4chan, 500px, 9GAG, AliExpress, Amazon Streaming, Amino, Apple Streaming, Betano, Betfair, Betway, Bigo Live, Bilibili, Blaze, Bluesky, Box, Canais Globo, ChatGPT, Claro, Claude, Clubhouse, CoolAPK, Crunchyroll, Dailymotion, DeepSeek, Deezer, Discord, Douban, Dropbox, eBay, Facebook, FIFA, Flickr, Globoplay, GOG, Grok, iHeartRadio, Imgur, Instagram, iQIYI, KakaoTalk, Kik, Kook, Lazada, League of Legends, Line, LinkedIn, Lionsgate+, Looke, Mail.ru, Manus, Mastodon, Mercado Libre, Meta AI, Microslop Teams, Nebula, Netflex, Odysee, OK.ru, Olvid, OnlyFans, Origin, Perplexity, Pintrest, Plenty of Fish, Plex, Privacy (not Privacy.com), QQ, Rakuten Viki, Rockstar Games, Shein, Shopee, Signal, Skype, Slack, Snapchat, SoundCloud, Steam, Telegram (Web), Temu, Tidal, TikTok, Tinder, Tumblr, Twitch, X (formerly Twitter), Valorant, Viber, Vimeo, Vivo Play, VK.com, Voot, Wargaming, WeChat, Weibo, WhatsApp, Wizz, Xiaohongshu, YY, Zhihu)
+LightFilter Security Blocklist (Enabled by default, prevents websites from detecting LightFilter, find it [here](https://raw.githubusercontent.com/TruStoreOfficial/LightFilter/refs/heads/main/LightFilter%20Blocklists/LightFilter_Security_Blocklist))
+LightFilter Community "Bad" Sites Blocklist (Enabled by default, blocks bad sites that other blocklists miss, find it [here](https://raw.githubusercontent.com/TruStoreOfficial/LightFilter/refs/heads/main/LightFilter%20Blocklists/LightFilter_Community_BadSites_Blocklistmd))
+LightFilter "Untrusted/Unsafe" Sites Blocklist (Enabled by default, Enforced for Minors, find it [here](https://raw.githubusercontent.com/TruStoreOfficial/LightFilter/refs/heads/main/LightFilter%20Blocklists/LightFilter_UntrustedAndUnsafe_Blocklist.md)
 
 --GameCo. Protect / Orbit Search Engine (Enforced)--
 Peter Lowe's Blocklist
@@ -78,3 +78,8 @@ AdGuard "Block Weapons/Explosives/Pyrotechnics" List
 <--Stock Included Functions (Taken from uBlock Origin Lite)-->
 Enable strict blocking
 Enable pop-up blocking
+
+<--Additional Features-->
+Block access to iCloud Private Relay
+Block Firefox Canary Domain
+Force Preflight Mode for Prefetching in Chrome
